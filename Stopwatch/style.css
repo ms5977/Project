@@ -1,0 +1,53 @@
+body
+{
+    margin: 0;
+    background-color: rgba(105, 169, 172, 0.541);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container
+{
+    color: rgba(23, 13, 49, 0.596);
+}
+.digit
+{
+    font-size: 140px;
+    color: rgba(22, 53, 71, 0.568);
+    margin: 0 29px;
+}
+.text
+{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.btn-container
+{
+    text-align: center;
+    margin-top: 30px;
+    /* padding: 20px; */
+    border: 0px;
+}
+.btn
+{
+    font-size: 30px;
+    border-color: rgba(47, 47, 80, 0.637);
+    background-color: rgb(70, 105, 99);
+    color: white;
+    margin: 0 20px;
+    cursor: pointer;
+}
+#start
+{
+    background-color: rgba(165, 88, 15, 0.829);
+}
+#stop
+{
+    background-color: rgba(15, 165, 127, 0.829);
+}
+#reset
+{
+    background-color: rgba(165, 15, 48, 0.829);
+}

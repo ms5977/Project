@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .color-switcher
+        {
+            display: flexbox;
+            justify-content: center;
+            align-items: center;
+            /* background-color: chocolate; */
+            height: 500px;
+        }
+        .btn
+        {
+            display: block;
+            margin: 30px;
+        }
+        #red
+        {
+            background-color: red;
+            height: 50px;
+            width: 50px;
+            border-radius: 30px;
+        }
+        #blue
+        {
+            background-color: blue;
+            height: 50px;
+            width: 50px;
+            border-radius: 30px;
+        }
+        #green
+        {
+            background-color: green;
+            height: 50px;
+            width: 50px;
+            border-radius: 30px;
+        }
+        #yellow
+        {
+            background-color: yellow;
+            height: 50px;
+            width: 50px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Choose the Color To Change for Your Background</h1>
+    <div class="color-switcher">
+        <span class="btn" id="red" onclick="chnageBg('red')"></span>
+        <span class="btn" id="blue" onclick="chnageBg('blue')"></span>
+        <span class="btn" id="green"onclick="chnageBg('green')"></span>
+        <span class="btn" id="yellow"onclick="chnageBg('yellow')"></span>
+    </div>
+    <!-- <script>
+        let red=document.getElementById("red");
+        red.addEventListener("click",function(){
+            document.body.style.backgroundColor="rgba(0,45,0,255)";
+        })
+        
+        let blue=document.getElementById("blue");
+        blue.addEventListener("click",function(){
+            document.body.style.backgroundColor="blue";
+        })
+       
+        let green=document.getElementById("green");
+        green.addEventListener("click",function(){
+            document.body.style.backgroundColor="green";
+        })
+        let yellow=document.getElementById("yellow");
+        yellow.addEventListener("click",function(){
+            document.body.style.backgroundColor="yellow";
+        })
+    </script> -->
+    <script>
+        function chnageBg(color)
+        {
+            document.body.style.backgroundColor=color;
+        }
+        function chnageBg(color)
+        {
+            document.body.style.backgroundColor=color;
+        }
+        function chnageBg(color)
+        {
+            document.body.style.backgroundColor=color;
+        }
+        function chnageBg(color)
+        {
+            document.body.style.backgroundColor=color;
+        }
+    </script>
+
+
+</body>
+</html>
