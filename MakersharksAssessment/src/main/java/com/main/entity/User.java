@@ -1,0 +1,22 @@
+package com.main.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Entity
+@Table(name = "User")
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class User 
+{
+	@Id
+	private String email;
+	private String password;
+}
